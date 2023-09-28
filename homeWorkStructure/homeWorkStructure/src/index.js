@@ -9,4 +9,4 @@ function add(a, b) {
 }
 
 const decoratedAdd = logArguments(add);
-const result = decoratedAdd(2, 3 );
+console.log(decoratedAdd(10,20));
